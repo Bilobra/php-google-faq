@@ -58,5 +58,28 @@ $faqs = [
             </div>
         </nav>
     </header>
+    <main>
+        <div class="container">
+
+            <?php
+                foreach($faqs as $faq){
+            ?>
+                <div class="content">
+                    <h3>
+                        <?= $faq['question']; ?>
+                    </h3>
+                </div>
+
+                <div>
+                    <?= $faq['answer']; ?>
+                </div>
+            <?php
+                }
+            ?>        
+
+
+
+        </div>
+    </main>
 </body>
 </html>

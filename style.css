@@ -48,3 +48,11 @@ img{
     color: #4874B0;
     cursor: pointer;
 }
+
+/* MAIN */
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+}
