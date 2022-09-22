@@ -22,7 +22,8 @@ img{
     /* align-items: center; */
     gap: 0.6rem;
     font-size: 1.2rem;
-    color: gray;
+    color: #51565a;
+    font-weight: 500;
 }
 .logo_img{
     width: 50px;
@@ -39,9 +40,10 @@ img{
 }
 
 .nav_link{
-    font-size: 1rem;
+    font-size: 0.9rem;
     /* padding: 10px 0px 0; */
     color: gray;
+    font-weight: 500;
 }
 
 .nav_link.active,.nav_link:hover{
@@ -55,10 +57,10 @@ img{
 .container{
     max-width: 900px;
     margin: 0 auto;
-    padding: 30px;
+    /* padding: 50px 0; */
 }
 
-.paragr p{
+.paragr p, .paragr ol{
     margin: 20px 0;
     font-size: 0.9rem;
     line-height: 25px;
@@ -68,12 +70,22 @@ img{
 }
 .paragr h4{
     color:#3C4043;
-    font-size: 0.9rem;
+    font-size: 1rem;
+    font-weight: 500;
 
 }
+
+.paragr ul{
+    margin-left: 50px;
+}
+.paragr li{
+    margin: 30px 12px;
+}
+
 
 .content h3{
     font-size: 1.5rem;
     color:#3C4043;
     font-weight: 500;
+    padding-top: 50px;
 }
