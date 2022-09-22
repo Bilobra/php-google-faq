@@ -7,6 +7,8 @@
 img{
     max-width: 100%;
 }
+
+
 /* HEADER */
 
 .nav_bar{
@@ -62,9 +64,10 @@ img{
 
 .paragr p, .paragr ol{
     margin: 20px 0;
-    font-size: 0.9rem;
+    font-size: 0.875rem;
     line-height: 25px;
-    font-weight: 300;
+    font-weight: 400;
+    color:rgba(0,0,0,.87) ;
     
     
 }
@@ -80,6 +83,11 @@ img{
 }
 .paragr li{
     margin: 30px 12px;
+}
+
+.paragr a{
+    text-decoration: none;
+    color:#4874B0;
 }
 
 
