@@ -27,3 +27,36 @@ $faqs = [
 
 
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Google Faq</title>
+</head>
+<body>
+    <header>
+        <nav class="nav_bar">
+            <div class="logo">
+                <figure class="logo_img">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Google_logo_%282013-2015%29.svg/1200px-Google_logo_%282013-2015%29.svg.png" alt="">
+
+                </figure>
+                <span>Privacy e Termini</span>
+            </div>
+            <div class="links">
+                <ul class="links_list">
+                    <li class="nav_link ">Introduzione</li>
+                    <li class="nav_link ">Norme sulla privacy</li>
+                    <li class="nav_link ">Termini di servizio</li>
+                    <li class="nav_link ">Tecnologie</li>
+                    <li class="nav_link active">Domande frequenti</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+</body>
+</html>
